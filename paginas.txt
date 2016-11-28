@@ -1,0 +1,18 @@
+
+
+Ejemplos para pagina Mariano
+http://demo.fieldthemes.com/ps_cotto/intro/
+http://joomla.helixthemes.com/luxury/index.php
+http://magento2.magentech.com/themes/sm_revo/intro/index.html
+http://gianfar.ml/avior/
+http://net-baires.com.ar/
+https://devrockers.com/
+https://www.eventbrite.com/e/gdg-dev-rockers-fest-2016-tickets-27905799999
+
+
+Mi pagina 
+file:///C:/Users/Ailin/Desktop/Net-baires/index.html
+
+Paht carpeta sass:
+
+desktop/net-baires sass --watch sass:css

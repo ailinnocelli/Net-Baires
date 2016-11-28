@@ -1,11 +1,76 @@
+body {
+	color: #333333;
+}
+.row {
+	margin-bottom: 0;
+}
 .page-wrapper {
 	.header {
-		background-image: url(../img/puente1.jpg);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size:cover;
-		width: 100%;
-		height: auto;
+    	.info-header {
+    		width: 45%;
+    		height: auto;
+    		margin-top: 7%;
+    		position: absolute;
+    		top: 0;
+    		left: 25%;
+    		color: darken(#333333, 40%) ;
+    	}
+	}
+	.damero-sponsor {
+		padding-top: 150px;
+		background-color: lighten(#333333, 30%);
+		.item-sponsor {
+		display: inline-block;
+		height: 80px;
+		}
+		.dos {
+			display: inline-block;
+			height: 150px;
+
+		}
 	}
 
+	.brand-logo {
+		width: 10%;
+		img {
+			width: 100%;
+		}
+	}
+	.parallax-container {
+		height: 100vh; // ver como poner el alto con el alto de la pantalla
+	}
+	.info-header {
+		text-align: center;
+		text-shadow: rgb(247, 239, 239) 0px 2px 2px;
+		font-family: 'Muli', sans-serif;
+		h1 {
+			font-weight: 800;
+		}
+	}
+	nav {
+		background-color: transparent;
+	}
+	.nav-bar-fixed {
+		z-index: 2;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+	}
+	.nav-wrapper {
+		background-color: #333333;
+		opacity: 0.8;
+		background-image: none;
+	}
+	.navbar {
+		border: none;
+	}
+	.clean-padding {
+		padding-left: 0;
+		padding-right:0;
+	}
 }

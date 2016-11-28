@@ -5,150 +5,163 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>.Net Baires</title>
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme --> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+	<!-- <link rel="stylesheet" href="css/reset.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="page-wrapper">
-		<div class="container">
+		<div class="nav-bar-fixed">
 			<div class="row">
-				<div class="col-xs-12">
-					<nav class="navbar navbar-default">
-						<div class="container-fluid">
-							<!-- Brand and toggle get grouped for better mobile display -->
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-								<a class="navbar-brand" href="#">Brand</a>
-							</div>
-							<!-- Collect the nav links, forms, and other content for toggling -->
-							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-								<ul class="nav navbar-nav navbar-right">
+				<div class="col s12 clean-padding">
+					<!-- navbar -->
+					<nav>
+						<div class="nav-wrapper">
+							<div class="container">
+								<a href="#" class="brand-logo"><img src="img/logo-grande.png" alt=""></a>
+								<ul id="nav-mobile" class="right hide-on-med-and-down">
 									<li><a href="#">Inicio</a></li>
-									<li><a href="#">MeetUps</a></li>
+									<li><a href="#">Meetups</a></li>
 									<li><a href="#">Sumate a Slack</a></li>
-									<li><a href="#">Contactos</a></li>
+									<li><a href="#">Contacto</a></li>
 								</ul>
-							</div><!-- /.navbar-collapse -->
-						</div><!-- /.container-fluid -->
+							</div>
+						</div>
 					</nav>
-				</div>
-				<header class="header">
-					<figure>
-						<img src="img/logo-grande.png" alt="Logo" title="Logo">
-						<h1>Comunidad de .Net en Buenos Aires</h1>
-						<h3>Ciudad Autonoma de Buenos Aires</h3>
-					</figure>
-				</header>
-				<div class="container">
-					<section>
-						<article><!-- slide o damero de sponsors -->
-							<div class="first-line">
-								<span class="uno"></span>
-								<span class="dos"></span>
-								<span class="uno"></span>
-								<span class="dos"></span>
-							</div>
-							<div class="second-line">
-								<span class="uno"></span>
-								<span class="dos"></span>
-								<span class="uno"></span>
-								<span class="dos"></span>
-							</div>
-						</article>
-					</section>
-					<section>
-						<article>
-							<h2>.Net Ciudad de Buenos Aires</h2>
-							<p>Comunidad de desarrolladores .Net de la ciudad de Buenos Aires. La intención es generar un espacio donde compartir conocimiento, anécdotas y todo tipo de experiencias que puedan generar interés en cualquiera de nosotros. Están todos invitados a proponer charlas, workshop o cualquier actividad.</p>
-							<span class="button">Sumate a Slack</span>
-						</article>
-						<article>
-							<h3>Imagenes de nuestros eventos</h3>
-							<div><!-- Galeria imagenes --></div>
-						</article>
-						<article>
-							<h2>Team</h2>
-							<div>
-								<figure>
-									<img src="" alt="" title="">
-									<img src="" alt="" title="">
-								</figure>
-							</div>
-						</article>
-						<article>
-							<h2>Colaboradores</h2>
-							<figure>
-								<img src="" alt="" title="">
-							</figure>
-						</article>
-					</section>
-					<section>
-						<figure>
-							<img src="" alt="" title=""><!-- background parallax -->
-							<p>Estás invitado a proponer y dar charlas, workshop o cualquier actividad</p>
-							<span class="button">Sumate</span>
-						</figure>
-						<article class="social">
-							<ul>
-								<li><!-- mail --></li>
-								<li><!--Sumate a Slack--></li>
-								<li><!-- twitter --></li>
-							</ul>
-						</article>
-					</section>
-					<section>
-						<article>
-							<div>
-								<h2>Agenda</h2>
-								<h3>2016</h3>
-							</div>
-
-							<div>
-								<span>Sep.02</span><!-- circulo con fecha -->
-								<div>
-									<p>Informacion de la charla...</p>
-								</div>
-								<span>Oct.06</span><!-- circulo con fecha -->
-								<div>
-									<p>Informacion de la charla...</p>
-								</div>
-								<span>Oct.22</span><!-- circulo con fecha -->
-								<div>
-									<p>Informacion de la charla...</p>
-								</div>
-							</div>
-							<div>
-								<span>Proponé un tema</span>
-								<span>Da una charla</span>
-								<span>Da un Workshop</span>
-							</div>
-						</article>
-					</section>
-					<footer>
-						<ul>
-							<li><!-- logo --></li>
-							<li><!-- facebook --></li>
-							<li><!-- Twitter --></li>
-							<li><!-- mail --></li>
-						</ul>
-					</footer>
-
 				</div>
 			</div>
 		</div>
+		<!-- cierra row -->
+		<!-- cierra container  -->
+		<header class="header">
+			<div class="info-header">
+				<img src="img/logo-grande.png" alt="Logo" title="Logo" class="logo">
+				<h1>Comunidad de .Net en Buenos Aires</h1>
+				<h3>Ciudad Autonoma de Buenos Aires</h3>
+			</div>
+			<div class="parallax-container header-parralax">
+				<div class="parallax">
+					<img src="puente1.jpg" alt="Buenos Aires">
+				</div>
+			</div>
+		</header>
+		
+		<section class="damero-sponsor">
+			<div class="container">
+				<article><!-- slide o damero de sponsors -->
+					<div class="first-line">
+						<div class="row">
+							<div class="col s12 m4 l3 item-sponsor"></div> 
+							<div class="col s12 m4 l3 item-sponsor"></div>
+							<div class="col s12 m4 l3 item-sponsor"></div>
+							<div class="col s12 m4 l3 item-sponsor"></div>			
+						</div>
+						
+					</div>
+					<div class="second-line">
+						<div class="row">
+							<div class="col s12 m4 l3 item-sponsor"></div> 
+							<div class="col s12 m4 l3 item-sponsor"></div>
+							<div class="col s12 m4 l3 item-sponsor"></div>
+							<div class="col s12 m4 l3 item-sponsor"></div>			
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<article>
+					<h2>.Net Ciudad de Buenos Aires</h2>
+					<p>Comunidad de desarrolladores .Net de la ciudad de Buenos Aires. La intención es generar un espacio donde compartir conocimiento, anécdotas y todo tipo de experiencias que puedan generar interés en cualquiera de nosotros. Están todos invitados a proponer charlas, workshop o cualquier actividad.</p>
+					<span class="button">Sumate a Slack</span>
+				</article>
+				<article>
+					<h3>Imagenes de nuestros eventos</h3>
+					<div><!-- Galeria imagenes --></div>
+				</article>
+				<article>
+					<h2>Team</h2>
+					<div>
+						<figure>
+							<img src="" alt="" title="">
+							<img src="" alt="" title="">
+						</figure>
+					</div>
+				</article>
+				<article>
+					<h2>Colaboradores</h2>
+					<figure>
+						<img src="" alt="" title="">
+					</figure>
+				</article>
+			</section>
+			<section>
+				<figure>
+					<img src="" alt="" title=""><!-- background parallax -->
+					<p>Estás invitado a proponer y dar charlas, workshop o cualquier actividad</p>
+					<span class="button">Sumate</span>
+				</figure>
+				<article class="social">
+					<ul>
+						<li><!-- mail --></li>
+						<li><!--Sumate a Slack--></li>
+						<li><!-- twitter --></li>
+					</ul>
+				</article>
+			</section>
+			<section>
+				<article>
+					<div>
+						<h2>Agenda</h2>
+						<h3>2016</h3>
+					</div>
+
+					<div>
+						<span>Sep.02</span><!-- circulo con fecha -->
+						<div>
+							<p>Informacion de la charla...</p>
+						</div>
+						<span>Oct.06</span><!-- circulo con fecha -->
+						<div>
+							<p>Informacion de la charla...</p>
+						</div>
+						<span>Oct.22</span><!-- circulo con fecha -->
+						<div>
+							<p>Informacion de la charla...</p>
+						</div>
+					</div>
+					<div>
+						<span>Proponé un tema</span>
+						<span>Da una charla</span>
+						<span>Da un Workshop</span>
+					</div>
+				</article>
+			</section>
+			<footer>
+				<ul>
+					<li><!-- logo --></li>
+					<li><!-- facebook --></li>
+					<li><!-- Twitter --></li>
+					<li><!-- mail --></li>
+				</ul>
+			</footer>
+
+		</div>
 	</div>
-	<script
-	src="https://code.jquery.com/jquery-3.1.1.min.js"
-	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	crossorigin="anonymous"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</div>
+</div>
+<script
+src="https://code.jquery.com/jquery-3.1.1.min.js"
+integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<script src="js/parallax.js"></script>
 </body>
 </html>
