@@ -82,57 +82,83 @@
 				</article>
 				<article>
 					<h3>Imagenes de nuestros eventos</h3>
-					<div><!-- Galeria imagenes --></div>
-				</article>
-				<article>
-					<h2>Team</h2>
-					<div>
-						<figure>
-							<img src="" alt="" title="">
-							<img src="" alt="" title="">
-						</figure>
+					<div><!-- Galeria imagenes -->
+						<div class="carousel">
+							<a class="carousel-item" href="#one!"><img src="img/dev-day-2.jpg"></a>
+							<a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
+							<a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a>
+							<a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a>
+							<a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a>
+						</div>
 					</div>
 				</article>
-				<article>
+				<article class="team people-group">
+					<h2>Team </h2>
+					<div>
+						<div class="member">
+							<figure >
+								<img src="img/marian.jpeg" alt="Mariano" title="Mariano">
+							</figure>
+						</div>
+						<div class="member">
+							<figure >
+								<img src="img/nico.jpeg" alt="Nicolas" title="Nicolas">
+							</figure>
+						</div>
+					</div>
+				</article>
+				<article class="contributors people-group">
 					<h2>Colaboradores</h2>
 					<figure>
 						<img src="" alt="" title="">
 					</figure>
 				</article>
-			</section>
-			<section>
-				<figure>
-					<img src="" alt="" title=""><!-- background parallax -->
+			</div>
+		</section>
+		<section>
+			<figure>
+				<img src="" alt="" title=""><!-- background parallax -->
+				<div class="container">
 					<p>Estás invitado a proponer y dar charlas, workshop o cualquier actividad</p>
 					<span class="button">Sumate</span>
-				</figure>
-				<article class="social">
-					<ul>
-						<li><!-- mail --></li>
-						<li><!--Sumate a Slack--></li>
-						<li><!-- twitter --></li>
-					</ul>
-				</article>
-			</section>
-			<section>
-				<article>
-					<div>
+				</div>
+			</figure>
+			<article class="social">
+				<ul>
+					<li><!-- mail --></li>
+					<li><!--Sumate a Slack--></li>
+					<li><!-- twitter --></li>
+				</ul>
+			</article>
+		</section>
+		<section>
+			<div class="container">
+				<article class="people-group diary-wrapper">
+					<div class="diary-title">
 						<h2>Agenda</h2>
+					</div>
+					<div class="year">
 						<h3>2016</h3>
 					</div>
-
-					<div>
-						<span>Sep.02</span><!-- circulo con fecha -->
-						<div>
-							<p>Informacion de la charla...</p>
+					<div class="diary">
+						<div class="event">
+							<span class="circle">Sep.02</span><!-- circulo con fecha -->
+							<div class="diary-text">
+								<span>Viernes 2 de septiembre-Net-Baires Comunidad de .NET en Bs As (Visual Studio Team Services , Neo4j)</span>
+								<p>Net-Baires Viernes 2 de septiembre Saludos a todos. Les cuento que haremos el primer meetup en las oficinas de Microsoft. Dirección: Bouchard 710, 4to piso, Buenos Aires Deben de presentarse con dni y anunciarse para el meetup del piso 4.</p>
+							</div>
 						</div>
-						<span>Oct.06</span><!-- circulo con fecha -->
-						<div>
-							<p>Informacion de la charla...</p>
+						<div class="event">
+							<span class="circle">Oct.06</span><!-- circulo con fecha -->
+							<div class="diary-text">
+								<p>Informacion de la charla...</p>
+							</div>
 						</div>
-						<span>Oct.22</span><!-- circulo con fecha -->
-						<div>
-							<p>Informacion de la charla...</p>
+						<div class="event">
+							<span class="circle">Oct.22</span><!-- circulo con fecha -->
+							<div class="diary-text">
+								<p>Informacion de la charla...</p>
+							</div>
 						</div>
 					</div>
 					<div>
@@ -141,20 +167,19 @@
 						<span>Da un Workshop</span>
 					</div>
 				</article>
-			</section>
-			<footer>
-				<ul>
-					<li><!-- logo --></li>
-					<li><!-- facebook --></li>
-					<li><!-- Twitter --></li>
-					<li><!-- mail --></li>
-				</ul>
-			</footer>
+			</div>
+		</section>
+		<footer>
+			<ul>
+				<li><!-- logo --></li>
+				<li><!-- facebook --></li>
+				<li><!-- Twitter --></li>
+				<li><!-- mail --></li>
+			</ul>
+		</footer>
 
-		</div>
+
 	</div>
-</div>
-</div>
 <script
 src="https://code.jquery.com/jquery-3.1.1.min.js"
 integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -162,6 +187,6 @@ crossorigin="anonymous"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-<script src="js/parallax.js"></script>
+<script src="js/detail.js"></script>
 </body>
 </html>

@@ -46,13 +46,44 @@ body {
   border-left: none;
   border-right: none; }
 .page-wrapper .nav-wrapper {
-  background-color: #333333;
-  opacity: 0.8;
+  background-color: #020202;
+  opacity: 0.6;
   background-image: none; }
 .page-wrapper .navbar {
   border: none; }
 .page-wrapper .clean-padding {
   padding-left: 0;
   padding-right: 0; }
+.page-wrapper .team .member {
+  display: inline-block;
+  margin-left: 40px;
+  height: 200px; }
+  .page-wrapper .team .member img {
+    border-radius: 50%; }
+.page-wrapper .people-group {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: solid 2px; }
+.page-wrapper .diary-wrapper .diary {
+  text-align: left; }
+.page-wrapper .diary-wrapper .diary-title {
+  margin-bottom: 30px; }
+.page-wrapper .diary-wrapper .event {
+  margin-bottom: 40px;
+  position: relative;
+  padding-left: 120px; }
+  .page-wrapper .diary-wrapper .event .circle {
+    border-radius: 50%;
+    padding: 25px;
+    background-color: #337464;
+    color: #ffffff;
+    margin-right: 20px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .page-wrapper .diary-wrapper .event .diary-text {
+    display: inline-block;
+    width: 80%; }
 
 /*# sourceMappingURL=style.css.map */
