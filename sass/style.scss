@@ -6,22 +6,42 @@ body {
 }
 .page-wrapper {
 	.header {
-    	.info-header {
-    		width: 45%;
-    		height: auto;
-    		margin-top: 7%;
-    		position: absolute;
-    		top: 0;
-    		left: 25%;
-    		color: darken(#333333, 40%) ;
-    	}
+		.info-header {
+			width: 45%;
+			height: auto;
+			margin-top: 7%;
+			position: absolute;
+			top: 120px;
+			left: 25%;
+			color: darken(#333333, 40%);
+			text-align: center;
+			text-shadow: rgb(247, 239, 239) 0px 2px 2px;
+			font-family: 'Muli', sans-serif;
+			.img-wrapper {
+				display: inline-block;
+			}
+			.text-wrapper {
+				h1 {
+					font-weight: 800;
+					font-size: 3.2rem;
+				}
+				h3 {
+					font-size: 1.9rem;
+				}
+			}
+
+		}
+		.logo {
+			width: 220px;
+		}
+
 	}
 	.damero-sponsor {
 		padding-top: 150px;
-		background-color: #0f114e;
+		background-color: #ffffff;//#0f114e;
 		.item-sponsor {
-		display: inline-block;
-		height: 80px;
+			display: inline-block;
+			height: 80px;
 		}
 		.dos {
 			display: inline-block;
@@ -39,14 +59,7 @@ body {
 	.parallax-container {
 		height: 100vh; // ver como poner el alto con el alto de la pantalla
 	}
-	.info-header {
-		text-align: center;
-		text-shadow: rgb(247, 239, 239) 0px 2px 2px;
-		font-family: 'Muli', sans-serif;
-		h1 {
-			font-weight: 800;
-		}
-	}
+	
 	nav {
 		background-color: transparent;
 	}
@@ -73,6 +86,24 @@ body {
 		padding-left: 0;
 		padding-right:0;
 	}
+	.first-background-color {
+		background-color: #22273f;
+		padding-bottom: 30px;
+		border-bottom: solid 2px #ffffff;
+		.explanation-wrapper {
+			padding-top: 30px;
+			p {
+				padding-bottom: 30px;
+			}
+			
+		}
+		h2, h3 {
+			color: #43b9d5;
+		}
+		p {
+			color: #ffffff;
+		}
+	}
 	.team {
 		.member {
 			display: inline-block;
@@ -84,14 +115,26 @@ body {
 			}
 		}
 	}
+	.button-wrapper {
+		text-align: center;
+		.button {
+			background-color:#43b9d5;
+			padding: 20px 30px;
+			color: #ffffff;
+			font-size: 20px;
+			
+		}
+	}
+
+	
 	.contributors {
 
 	}
 	.people-group {
 		text-align: center;
-	    margin-bottom: 50px;
-	    padding-bottom: 50px;
-	    border-bottom: solid 2px;
+		margin-bottom: 50px;
+		padding-bottom: 50px;
+		border-bottom: /*#ffffff */solid 2px;
 	}
 	.diary-wrapper {
 		.diary {
@@ -103,7 +146,7 @@ body {
 		.event {
 			margin-bottom: 40px;
 			position: relative;
-    		padding-left: 120px;
+			padding-left: 120px;
 			.circle {
 				border-radius: 50%;
 				padding: 25px;
@@ -111,8 +154,8 @@ body {
 				color: #ffffff;
 				margin-right: 20px;
 				position: absolute;
-			    top: 0;
-			    left: 0;
+				top: 0;
+				left: 0;
 			}
 			.diary-text {
 				display: inline-block;
@@ -121,5 +164,18 @@ body {
 		}
 
 	}
+	.offering-wrapper {
+		.offering-item {
+			border: solid 1px #D3D0A1;
+			display: inline-block;
+			height: 120px;
+			width: 30%;
+			margin-left: 10px;
+			-webkit-box-shadow: 3px 3px 5px 0px rgba(164,159,89,0.75);
+			-moz-box-shadow: 3px 3px 5px 0px rgba(164,159,89,0.75);
+			box-shadow: 3px 3px 5px 0px rgba(164,159,89,0.75);
+		}
+	}
+
 
 }

@@ -11,6 +11,25 @@
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
 	<!-- <link rel="stylesheet" href="css/reset.css"> -->
 	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="transparent">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="transparent">
+	<!-- end favicon -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -39,9 +58,14 @@
 		<!-- cierra container  -->
 		<header class="header">
 			<div class="info-header">
-				<img src="img/logo-grande.png" alt="Logo" title="Logo" class="logo">
-				<h1>Comunidad de .Net en Buenos Aires</h1>
-				<h3>Ciudad Autonoma de Buenos Aires</h3>
+				<div class="text-wrapper">
+					<h1>Comunidad de .Net en Buenos Aires</h1>
+					<h3>Ciudad Autonoma de Buenos Aires</h3>
+				</div>
+				<div class="img-wrapper">
+					<img src="img/logo-grande.png" alt="Logo" title="Logo" class="logo">
+				</div>
+				
 			</div>
 			<div class="parallax-container header-parralax">
 				<div class="parallax">
@@ -73,14 +97,16 @@
 				</article>
 			</div>
 		</section>
-		<section>
+		<section class="first-background-color people-group">
 			<div class="container">
-				<article>
+				<article class="explanation-wrapper people-group">
 					<h2>.Net Ciudad de Buenos Aires</h2>
 					<p>Comunidad de desarrolladores .Net de la ciudad de Buenos Aires. La intención es generar un espacio donde compartir conocimiento, anécdotas y todo tipo de experiencias que puedan generar interés en cualquiera de nosotros. Están todos invitados a proponer charlas, workshop o cualquier actividad.</p>
-					<span class="button">Sumate a Slack</span>
+					<div class="button-wrapper">
+						<span class="button">Sumate a Slack</span>
+					</div>
 				</article>
-				<article>
+				<article class="gallery-wrapper">
 					<h3>Imagenes de nuestros eventos</h3>
 					<div><!-- Galeria imagenes -->
 						<div class="carousel">
@@ -161,10 +187,16 @@
 							</div>
 						</div>
 					</div>
-					<div>
-						<span>Proponé un tema</span>
-						<span>Da una charla</span>
-						<span>Da un Workshop</span>
+					<div class="offering-wrapper">
+						<div class="offering-item">
+							<span>Da una charla</span>
+						</div>
+						<div class="offering-item">
+							<span>Proponé un tema</span>
+						</div>
+						<div class="offering-item">
+							<span>Da un Workshop</span>
+						</div>
 					</div>
 				</article>
 			</div>
@@ -180,13 +212,13 @@
 
 
 	</div>
-<script
-src="https://code.jquery.com/jquery-3.1.1.min.js"
-integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-crossorigin="anonymous"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-<script src="js/detail.js"></script>
+	<script
+	src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<script src="js/detail.js"></script>
 </body>
 </html>

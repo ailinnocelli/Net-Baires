@@ -9,12 +9,24 @@ body {
   height: auto;
   margin-top: 7%;
   position: absolute;
-  top: 0;
+  top: 120px;
   left: 25%;
-  color: black; }
+  color: black;
+  text-align: center;
+  text-shadow: #f7efef 0px 2px 2px;
+  font-family: 'Muli', sans-serif; }
+  .page-wrapper .header .info-header .img-wrapper {
+    display: inline-block; }
+  .page-wrapper .header .info-header .text-wrapper h1 {
+    font-weight: 800;
+    font-size: 3.2rem; }
+  .page-wrapper .header .info-header .text-wrapper h3 {
+    font-size: 1.9rem; }
+.page-wrapper .header .logo {
+  width: 220px; }
 .page-wrapper .damero-sponsor {
   padding-top: 150px;
-  background-color: #0f114e; }
+  background-color: #ffffff; }
   .page-wrapper .damero-sponsor .item-sponsor {
     display: inline-block;
     height: 80px; }
@@ -27,12 +39,6 @@ body {
     width: 100%; }
 .page-wrapper .parallax-container {
   height: 100vh; }
-.page-wrapper .info-header {
-  text-align: center;
-  text-shadow: #f7efef 0px 2px 2px;
-  font-family: 'Muli', sans-serif; }
-  .page-wrapper .info-header h1 {
-    font-weight: 800; }
 .page-wrapper nav {
   background-color: transparent; }
 .page-wrapper .nav-bar-fixed {
@@ -54,12 +60,31 @@ body {
 .page-wrapper .clean-padding {
   padding-left: 0;
   padding-right: 0; }
+.page-wrapper .first-background-color {
+  background-color: #22273f;
+  padding-bottom: 30px;
+  border-bottom: solid 2px #ffffff; }
+  .page-wrapper .first-background-color .explanation-wrapper {
+    padding-top: 30px; }
+    .page-wrapper .first-background-color .explanation-wrapper p {
+      padding-bottom: 30px; }
+  .page-wrapper .first-background-color h2, .page-wrapper .first-background-color h3 {
+    color: #43b9d5; }
+  .page-wrapper .first-background-color p {
+    color: #ffffff; }
 .page-wrapper .team .member {
   display: inline-block;
   margin-left: 40px;
   height: 200px; }
   .page-wrapper .team .member img {
     border-radius: 50%; }
+.page-wrapper .button-wrapper {
+  text-align: center; }
+  .page-wrapper .button-wrapper .button {
+    background-color: #43b9d5;
+    padding: 20px 30px;
+    color: #ffffff;
+    font-size: 20px; }
 .page-wrapper .people-group {
   text-align: center;
   margin-bottom: 50px;
@@ -85,5 +110,14 @@ body {
   .page-wrapper .diary-wrapper .event .diary-text {
     display: inline-block;
     width: 80%; }
+.page-wrapper .offering-wrapper .offering-item {
+  border: solid 1px #D3D0A1;
+  display: inline-block;
+  height: 120px;
+  width: 30%;
+  margin-left: 10px;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(164, 159, 89, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(164, 159, 89, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(164, 159, 89, 0.75); }
 
 /*# sourceMappingURL=style.css.map */
